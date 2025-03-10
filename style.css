@@ -1,0 +1,601 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+/* mise en ppage de la nav */
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav img {
+  height: 80px;
+  width: 80px;
+  cursor: pointer;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 8px;
+  color: #000;
+  font-weight: bolder;
+}
+
+nav ul li :hover {
+  color: goldenrod;
+}
+
+nav ul .nli {
+  border: 2px solid black;
+  border-radius: 9px;
+  padding: 7px;
+}
+
+/* mise en page de la section */
+#sectnav {
+  background-image: url(images/Leonardo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  padding-bottom: 7%;
+
+}
+
+.div1 {
+  padding-top: 220px;
+  display: grid;
+  justify-content: center;
+}
+
+section .div1 h2 {
+  text-align: center;
+  color:white;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+section .div1 .pp {
+  text-align: center;
+  padding: 0 60px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+section .div1 p{
+     padding: 8px 15px;
+       font-weight: bold;
+         font-size: 18px;
+
+
+}
+
+section .div2 {
+  text-align: center;
+}
+
+section .div2 a {
+  display: inline-block;
+  text-decoration: none;
+  padding-top: 3px;
+
+  color: white;
+  text-align: center;
+   
+
+}
+
+section .blue {
+  border: 2px solid #fff;
+  margin-right: 10px;
+}
+
+section .blue :hover {
+  color: goldenrod;
+}
+
+section .marron {
+    border: 2px solid #000;
+
+}
+
+section .marron :hover {
+  color: goldenrod;
+}
+
+/* mise en page de la page d'acceuil */
+
+#sectacc {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#sectacc h2 {
+  font-weight: bold;
+  color: rgba(5, 4, 46, 0.7);
+}
+
+#sectacc .p1 {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#sectacc .divacc {
+  display: inline-flex;
+  padding-top: 25px;
+  grid-gap: 1rem;
+  padding: 20px 100px 100px 100px;
+}
+
+#sectacc .divacc .div4 {
+  text-align: center;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 50px;
+  background-color: ghostwhite;
+  border-radius: 1rem;
+  box-shadow: -2px 2px 2px;
+}
+
+#sectacc .divacc .div5 {
+  text-align: center;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 50px;
+  border-radius: 1rem;
+  box-shadow: -2px 2px 2px;
+}
+
+#sectacc .divacc .div6 {
+  text-align: center;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 50px;
+  border-radius: 1rem;
+  box-shadow: -2px 2px 2px;
+}
+
+#sectacc .divacc i {
+  font-size: 50px;
+}
+
+/* mise en page de nos cours populaires */
+#courpopu {
+  text-align: center;
+  padding-top: 0px;
+}
+
+#courpopu h2 {
+  font-weight: bold;
+  color: rgba(5, 4, 46, 0.7);
+}
+
+#courpopu .p1 {
+  padding: 10px;
+  padding-bottom: 40px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.div8 img {
+  width: 100%;
+  /* height: 60%; */
+  background-size: cover;
+  background-position: center;
+}
+
+.reflet {
+  background-color: rgba(148, 145, 182, 0.3);
+  text-align: start;
+}
+
+.div8 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+  padding: 0px 100px 100px 100px;
+}
+
+.div8 p {
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.div8 h5 {
+  color: rgba(9, 5, 54, 0.3);
+  padding-left: 10px;
+}
+
+.div8 i {
+  padding-left: 10px;
+  color: goldenrod;
+}
+
+.div8 .prix {
+  background-color: darkblue;
+  border-radius: 100%;
+  padding: 5px;
+  float: right;
+  position: relative;
+  bottom: 50px;
+  color: white;
+}
+
+/* enregistrement */
+
+#enreg {
+  padding: 6vw 16vw 6vw 0vw;
+  background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)),
+    url(images/pc.jpg);
+  display: flex;
+  justify-content: space-between;
+  background-size: cover;
+  width: 200vh;
+  height: 85vh;
+  background-position: center;
+  /* padding-bottom: 7%; */
+}
+
+#enreg h3 {
+  color: maroon;
+}
+
+#enreg .div15 {
+  color: gold;
+  padding: 25px;
+  font-size: 30px;
+}
+
+#enreg .div15 i {
+  font-size: 70px;
+}
+
+#enreg .form {
+  padding: 40px;
+  display: flex;
+  background: white;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+#enreg .form input {
+  margin: 25px 0px;
+  padding: 10px 15px;
+  border: 1px solid rgba(32, 38, 135, 0.37);
+  box-shadow: -7px 3px 3px 3px;
+  background-color: rgba(148, 145, 182, 0.3);
+}
+
+#enreg .form .div16 a {
+  text-decoration: none;
+  text-align: center;
+  padding: 8px;
+  color: white;
+  box-shadow: -7px 1px 1px 1px;
+  border: none;
+}
+
+#enreg .form .div16 a:hover {
+  color: goldenrod;
+}
+
+#enreg .form .div16 {
+  padding: 15px 35px 15px 35px;
+  background-color: rgba(5, 4, 46, 0.7);
+}
+
+/* nos expert */
+
+#expt {
+  text-align: center;
+  padding: 40px 100px 100px 100px;
+}
+
+#expt h2 {
+  font-weight: bold;
+  color: rgba(5, 4, 46, 0.7);
+}
+
+#expt .p1 {
+  padding: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#expt .expert {
+  display: grid;
+  grid-gap: 1rem;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+#expt .expert img {
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 200%;
+  padding: 25px;
+}
+
+#expt .expert .reflet {
+  background-color: rgba(5, 4, 46, 0.7);
+  text-align: center;
+  cursor: pointer;
+}
+
+#expt .expert .reflet h5 {
+  font-weight: bold;
+}
+
+#expt .expert .reflet i {
+  padding: 3px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 1px solid rgb(83, 83, 182);
+}
+
+#expt .expert .reflet #p {
+  padding-bottom: 12px;
+}
+
+/* footer */
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  margin-top: 50px;
+  background-color: rgba(32, 38, 135, 0.37);
+  cursor: pointer;
+}
+
+#footer h3 {
+  margin-bottom: 20px;
+  box-shadow: -7px 3px 3px 3px;
+}
+
+#footer .div19 input {
+  border-radius: 10px;
+  border: 1px solid #563477;
+  padding: 15px;
+  background-color: rgba(5, 4, 46, 0.7);
+  box-shadow: -7px 10px 10px 10px;
+  margin-bottom: 40px;
+}
+
+#footer .div19 input:hover {
+  background-color: maroon;
+}
+
+#footer .div19 i {
+  font-size: 30px;
+}
+
+#footer .div19 i a {
+  color: rgba(5, 4, 46, 0.7);
+  text-decoration: none;
+}
+
+#footer .div19 i a:hover {
+  color: rgba(9, 5, 54, 0.3);
+}
+
+#footer .p2 {
+  box-shadow: -7px 3px 3px 3px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+#footer h3:hover {
+  background-color: rgba(9, 5, 54, 0.3);
+}
+
+#footer .p2:hover {
+  background-color: rgba(9, 5, 54, 0.3);
+}
+
+#footer
+
+/* a propos */
+
+#sectnav1 {
+  background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)),
+    url(images/22.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+  background-position: center;
+  padding-bottom: 7%;
+}
+
+#sectnav1 .div20 h1 {
+  padding-top: 120px;
+  color: chocolate;
+  font-size: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#sectnav1 nav ul li a {
+  text-decoration: none;
+  padding: 8px;
+  color: chocolate;
+  font-weight: bolder;
+}
+
+#sectnav1 nav ul li :hover {
+  color: blue;
+}
+
+#sectnav1 nav ul .nli {
+  border: 2px solid lightyellow;
+  border-radius: 9px;
+  padding: 7px;
+}
+
+#propos {
+  padding: 40px;
+  text-align: center;
+  display: grid;
+  grid-gap: 6px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  align-items: center;
+}
+
+#propos .div21 {
+  padding-left: 20px;
+}
+
+#propos .div21 .img1 {
+  width: 150px;
+  height: 150px;
+  display: flex;
+}
+/* 
+#propos .div21 .img2 {
+  width: 100px;
+  height: 250px;
+}
+
+#propos .div21 .img3 {
+  width: 400px;
+  height: 500px;
+}
+
+#propos .div22 {
+  text-align: start;
+}
+
+#propos .div22 h2 {
+  padding-right: 40%;
+  padding-bottom: 10px;
+}
+
+#propos .div22 p {
+  color: rgb(78, 77, 77);
+  padding-bottom: 10px;
+}
+
+#propos .div22 {
+  border: 1px solid rgba(32, 38, 135, 0.37);
+  padding: 6px 0px 100px 10px;
+  background-color: rgba(9, 5, 54, 0.3);
+} */
+
+#apropos {
+  display: grid;
+  grid-template-areas:
+    "side side image"
+    "content content content";
+  grid-template-rows: auto;
+  grid-gap: 1rem;
+}
+
+#aside1 {
+  grid-area: side;
+}
+#aside1 .divaside {
+  padding: 100px 50px 50px 50px;
+}
+#aside1 .divaside #aside2 {
+  grid-area: image;
+}
+
+#aside3 {
+  grid-area: content;
+}
+
+#aside3 .divaside3 {
+  display: flex;
+}
+
+div > h1,
+h3,
+h2 {
+  font-size: 30px;
+  color: midnightblue;
+  text-align: center;
+  font-weight: bold;
+}
+
+#aside1 p {
+  font-size: 18px;
+  padding: 15px;
+  text-align: center;
+}
+
+#aside1 .divaside35 p {
+  color: maroon;
+}
+
+#aside1 .divaside35 a {
+  font-size: 25px;
+  padding-left: 200px;
+  text-decoration: none;
+}
+#aside3 h2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 50px;
+}
+/* formation */
+#sectnav2 {
+  background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)),
+    url(images/22.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+  background-position: center;
+  padding-bottom: 7%;
+}
+
+#sectnav2 .div20 h1 {
+  padding-top: 120px;
+  color: chocolate;
+  font-size: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#sectnav2 nav ul li a {
+  text-decoration: none;
+  padding: 8px;
+  color: chocolate;
+  font-weight: bolder;
+}
+
+#sectnav2 nav ul li :hover {
+  color: blue;
+}
+
+#sectnav2 nav ul .nli {
+  border: 2px solid lightyellow;
+  border-radius: 9px;
+  padding: 7px;
+}
+
+p {
+  padding: igogob, pb, gl;
+}
